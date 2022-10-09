@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    display: block;
+}
+.right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    float: right;
+}
+.left .l_menu {
+    float: right;
+    margin-right: 56px;
+}
+.left .l_menu li{
+    display: inline-flex;
+    float: left;
+}
+.left .l_menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin: 12px;
+}
+.right .r_menu{
+    margin-left: 46px;
+}
+.right .r_menu li{
+    display: inline-flex;
+}
+
+.right .r_menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin: 12px;
+}
+
+#logo{
+    font-size: 32px;
+}
+#signup{
+    color: black;
+    background-color: aliceblue;
+    padding-top: 4pt;
+    text-align: center;
+    width: 50pt;
+    height: 20pt;
+    border-radius: 12pt;
+}
+a:hover{
+    width: 50pt;
+    height: 25pt;
+    text-align: center;
+    border-radius: 12pt;
+    transition: 0.6s;
+    background-color: rgb(68, 57, 57);
+}
+.container{
+    background: url(images/Rider_Home_bg_desktop2x.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container .account_page{
+    background-color: rgb(254, 254, 254);
+    width: 500px;
+    height: 400px;
+}
+.account_page a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    margin-top: 36pt;
+    margin-right: 100pt;
+    margin-left: 16pt;
+}
